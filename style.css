@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Reddit Mono", monospace;
+    background-color: rgb(184, 210, 216);
+}
+
+.city {
+    margin: 30px auto;
+    height: 30px;
+    width: 500px;
+    max-width: 80%;
+    background-color: rgb(26, 173, 202);
+    border: solid;
+    border-color: rgb(26, 173, 202);
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1%;
+}
+
+.city input{
+    border: none;
+    width: 90%;
+    margin-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+
+.city button{
+    border: none;
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+.city button img{
+   height: 30px;
+   background-color: inherit;
+}
+
+.city button img:hover {
+    transform: scaleX(-1);
+}
+
+
+input::placeholder {
+    color: white;
+}
+
+.weather {
+    display: flex; 
+    height: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.today {
+    width: 500px;
+    min-width: 40%;
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(26, 173, 202);
+    font-size: large;
+    color: white;
+    border-radius: 30px;
+    display: none;
+}
+
+.weathertype {
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#city_name {
+    text-align: center;
+    background-color: inherit;
+}
+
+#temprature {
+    margin: 50px;
+    text-align: center;
+    background-color: inherit;
+}
+
+.cast {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    background-color: inherit;
+}
+
+.weathertype {
+    background-color: inherit;
+}
+.cast div img{
+    height: 50px;
+    background-color: inherit;
+}
+
+.cast div {
+    display: grid;
+    background-color: inherit;
+}
+
+.cast div h2{
+    background-color: inherit;
+}
+
+.error {
+    margin-left: auto;
+    color: red;
+    text-align: center;
+    display: none;
+}

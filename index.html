@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');</style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="city">
+        <input id="city_input" type="text" placeholder="Enter a city">
+        <button id="search"><img src="seach.png"></button>
+    </div>
+    <div class="error">Invalid city name</div>
+    <div class="weather">
+        <div class="today">
+            <h1 id="city_name">City</h1>
+            <img class="weathertype" id="weathertype" src="">
+            <h2 id="temprature"> Temprature </h2>
+            <div class ="cast">
+                <div><img src="humidity (1).png"><h2 id="humidity"></h2> Humidity</div>
+                <div><img src="wind (1).png"><h2 id="wind"></h2> Wind speed</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
